@@ -1,0 +1,31 @@
+.navigation {
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .navigation__link {
+    font-size: 28px;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: crimson;
+    background-color: lightBlue;
+    padding: 5px 5px;
+    border: 4px double red;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 15px 15px 46px -11px #c43e3e;
+  }
+  
+  
+  .navigation__list {
+    list-style: none;
+    padding: 10px;
+  }
+  
+  .navigation__link:visited {
+    color: darkRed;
+  }
+  
+  .navigation__category {
+    padding: 15px;
+  }

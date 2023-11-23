@@ -1,0 +1,42 @@
+.section__title {
+    font-size: 75px;
+    font-family: "Inter", sans-serif;
+    width: auto;
+    text-align: center;
+    color: darkRed;
+    text-shadow: 25px 25px 35px;
+  
+  }
+  
+  .section__heading {
+    font-size: 40px;
+    color: darkGreen;
+  }
+
+  .section__link:active {
+    color: orange;
+  }
+  
+  .section__link {
+    color: black;
+    background-color: #D5FF59;
+    text-decoration: none;
+    padding: 1px;
+  }
+
+  .section__link:hover {
+    color: #BC5400;
+    border-bottom: 1px solid;
+    outline: none;
+  }
+
+  .section__text {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    line-height: 1.5
+  }
+
+  .section__container {
+    color: darkRed;
+  }
+  

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wizytówka - Wojtek</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/navigation.css" rel="stylesheet">
+  <link href="css/table.css" rel="stylesheet">
+  <link href="css/button.css" rel="stylesheet">
+  <link href="css/section.css" rel="stylesheet">
+  <link href="css/footer.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Open+Sans&display=swap"
+    rel="stylesheet">
+  <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+
+  <section class="section">
+    <header>
+      <h1 class="section__title">Wojciech Kwasek</h1>
+    </header>
+
+    <p><button class="button">Pokaż <span class="themeName">ciemny</span> motyw</button></p>
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__category">
+          <a class="navigation__link" href="#o-mnie">O mnie</a>
+        </li>
+        <li class="navigation__category">
+          <a class="navigation__link" href="#zainteresowania">Zainteresowania</a>
+        </li>
+        <li class="navigation__category"><a class="navigation__link" href="#moje-podroze">Moje podróże</a>
+        </li>
+        <li class="navigation__category"><a class="navigation__link" href="#kilka-zdjec">Kilka zdjęć</a>
+        </li>
+      </ul>
+    </nav>
+  </section>
+
+  <main>
+    <section class="section">
+
+      <h2 class="section__heading" id="o-mnie">O mnie</h2>
+      <p class="section__text"> Mam na imię Wojtek i pochodzę z <strong class="section__container">Częstochowy.</strong>
+        <br> Studiowałem na WSHiT, gdzie ukończyłem Turystykę i Rekreację ze specjalizacją <br><b
+          class="section__container">Obsługa Ruchu Turystycznego.</b>
+        <br>Obecnie mieszkam i pracuję w Anglii jako operator CNC. W planach oczywiście mam powrót do Polski!
+      </p>
+
+    </section>
+
+    <section class="section">
+
+      <h2 class="section__heading" id="zainteresowania">Zainteresowania</h2>
+
+      <p class="section__text">Moją największą pasją są <b class="section__container">podróże.</b> Razem z
+        żoną zwiedziliśmy już kilkanaście krajów, a jeszcze wiele w planach. <br>Jako, że pochodzę z Częstochowy i
+        tam się wychowałem to kolejną moją wielką pasją jest <strong class="section__container"> żużel i mój klub
+          <em>Włókniarz Częstochowa. </em></strong>Więcej o klubie możesz przeczytać <a class="section__link"
+          title="CKM Włókniarz Częstochowa" rel="noreferrer noopener" target="_blank"
+          href="https://wlokniarz.com/">tutaj.</a>
+        <br> Tak ogólnie to zainteresowań mam wiele, jak np. muzyka, motoryzacja, kryptowaluty, sport. Nawet
+        amatorsko gram w squasha. A najnowszym moim zainteresowniem stało się programowanie.
+
+      </p>
+
+    </section>
+
+    <section class="section">
+
+      <h2 class="section__heading" id="moje-podroze">Moje podróże</h2>
+
+      <div class="tableContainer">
+        <table class="table">
+
+          <caption class="table__caption">Oto moje zagraniczne podróże</caption>
+          <thead>
+            <tr class="table__row">
+              <th class="table__cell table__cell--headerUp" scope="col">Kraj</th>
+              <th class="table__cell table__cell--headerUp" scope="col">Rok</th>
+              <th class="table__cell table__cell--headerUp" scope="col">Przykładowe miejsca, które warto zobaczyć</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">Anglia</th>
+              <td class="table__cell">2008, 2014</td>
+              <td class="table__cell">Kornwalia, Lake District, West Lulworth</td>
+
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">USA</th>
+              <td class="table__cell">2008, 2009, 2019, 2022, 2023</td>
+              <td class="table__cell">Grand Canyon, Golden Gate, Luckenbach, Las Vegas, Oatman, cała Route 66, Oahu na
+                Hawajach, Kanion antylopy, Sedona</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">Kanada</th>
+              <td class="table__cell">2014, 2017</td>
+              <td class="table__cell">Niagara, Toronto, Port Burwell</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">Kuba</th>
+              <td class="table__cell">2014, 2015</td>
+              <td class="table__cell">Cayo Santa Maria, Santa Clara</td>
+            </tr>
+
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">Islandia</th>
+              <td class="table__cell">2017</td>
+              <td class="table__cell">Reykjavik, Selfoss, Kerid, Geysir</td>
+            </tr>
+
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">Meksyk</th>
+              <td class="table__cell">2018</td>
+              <td class="table__cell">Holbox, Chichen Itza</td>
+            </tr>
+
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">Francja</th>
+              <td class="table__cell">2018</td>
+              <td class="table__cell">Paryż, Wieża Eiffla</td>
+            </tr>
+
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">Luksemburg</th>
+              <td class="table__cell">2018</td>
+              <td class="table__cell">Luksemburg, Alzette</td>
+            </tr>
+
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">Szkocja</th>
+              <td class="table__cell">2021</td>
+              <td class="table__cell">Edynburg, wyspa Skye, Loch Lomond, jezioro Loch Ness</td>
+            </tr>
+
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">Walia</th>
+              <td class="table__cell">2021</td>
+              <td class="table__cell">Snowdonia, Brecon Beacons, Cardiff</td>
+            </tr>
+
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">Dominikana</th>
+              <td class="table__cell">2022</td>
+              <td class="table__cell">Wyspa Saona, La Romana, Higuey</td>
+            </tr>
+
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">Szwajcaria</th>
+              <td class="table__cell">2022</td>
+              <td class="table__cell">Dolina Lauterbrunnen, Grindelwald, Guttannen, Airolo</td>
+            </tr>
+
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">Niemcy</th>
+              <td class="table__cell">2023</td>
+              <td class="table__cell">Bawaria</td>
+            </tr>
+          </tbody>
+
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+
+      <h2 class="section__heading" id="kilka-zdjec">Kilka zdjęć</h2>
+
+      <img width="300" src="https://i.ibb.co/1TgsV7b/IMG-9540.jpg" alt="Route 66">
+
+      <img width="300" src="https://i.ibb.co/q5KVKvT/IMG-0106.jpg" alt="Saona">
+
+      <img width="300" src="https://i.ibb.co/yWFLDCQ/IMG-0328.jpg" alt="Holbox">
+
+      <img width="300" src="https://i.ibb.co/NZ1tvvk/IMG-0750.jpg" alt="Szwajcaria">
+
+      <img width="300" src="https://i.ibb.co/WzcHMFP/IMG-1807.jpg" alt="Niagara">
+
+      <img width="300" src="https://i.ibb.co/n3ggLvg/IMG-2108.jpg" alt="Islandia">
+
+      <img width="300" src="https://i.ibb.co/Hnh0HML/IMG-2427.jpg" alt="Islandia">
+
+      <img width="300" src="https://i.ibb.co/c6HdLy1/IMG-2853.jpg" alt="Luksemburg">
+
+      <img width="300" src="https://i.ibb.co/gJYXn2T/IMG-2938.jpg" alt="Paryż">
+
+      <img width="300" src="https://i.ibb.co/1JkTdQN/IMG-5298.jpg" alt="Stonehenge">
+
+      <img width="300" src="https://i.ibb.co/mhh2tPj/IMG-5439.jpg" alt="Londyn">
+
+      <img width="300" src="https://i.ibb.co/60ZRcSp/IMG-9332.jpg" alt="Grand Canyon">
+
+      <img width="300" src="https://i.ibb.co/vw3MKGq/IMG-9533.jpg" alt="USA">
+
+      <img width="300" src="https://i.ibb.co/WzJdfgb/Remote-Media-File-6553677-0-2021-05-31-10-44-32.jpg" alt="Szkocja">
+
+    </section>
+
+  </main>
+  <footer class="footer">© Copyright 2022 by Wojciech Kwasek</footer>
+</body>
